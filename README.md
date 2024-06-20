@@ -114,7 +114,8 @@ IncHealth(50) // health = 140
 
 **Example**
 
-![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/5f36af60-4a1a-49b4-b652-6edd245c2e47)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/cd2d5285-7dbd-4268-879a-414f4b23968a)
+
 
 
 
