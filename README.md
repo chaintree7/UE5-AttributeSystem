@@ -2,7 +2,7 @@
 # Attribute System 
 
 
-#### To ensure the extensibility of the component, the Attribute System itself does not contain any game logic. It is solely responsible for managing value modifications, queries, and network synchronization. This design prevents any conflicts with other functionalities in your project, allowing you to safely use it in any project. The component has undergone extensive testing to support a wide range of requirements.
+#### To ensure the extensibility of the component, the Attribute System itself does not contain any game logic. It is solely responsible for managing value modifications, queries, and network Replication. This design prevents any conflicts with other functionalities in your project, allowing you to safely use it in any project. The component has undergone extensive testing to support a wide range of requirements.
 #### The demo provides numerous examples, such as the usage of Combat Buff and Equipment.
 #### All data in component uses Array `Array<Map<Key, Value>>`
 | ArrayName| Map Key | Map Value |
