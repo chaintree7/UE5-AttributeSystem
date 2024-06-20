@@ -20,7 +20,8 @@
 
 **The usage is very simple; you just need to add CT_Cmpt_Attribute to the Actor.**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/32f995e8-77cc-4302-994e-5af593fa70ae)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/7dfaa4c1-aa56-44dc-9e21-c2ee03208172)
+
 
 
 -------
@@ -42,34 +43,42 @@ IncHealth(50) // health = 140
 # Attribute 
 **Attributes can be used to manage basic properties such as attack, defense, and maximum health. To differentiate sources, attributes are split into `Base`, `Buff`, and `Equip`.**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/38167d13-4234-45b2-b096-6e3c713f7ecb)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/80ee9c3f-5f62-4ab1-8ca9-cbdc390c7bfb)
+
 
 **`GetAttribute` will return the sum of `Base`, `Buff`, and `Equip`. For example, if a character's base `health` is 100, `Buff` adds 100, and `Equip` adds 100, the maximum `health` of the character will be 300.**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/4fe6ff6b-6360-48bc-be9e-f58f12839ac8)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/5c5cb3db-f786-439b-87cb-ba599d631524)
+
 
 ## Attribute Rules
 **In Rules, you can configure an attribute to affect the value of another attribute. For example, 1 Strength = +10 Maximum Health & +1 Health Regen & +1 Attack Power**
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/085a2c50-dbd5-4af5-960d-ae05c6e7ff0f)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/209a8573-870e-43be-b2a4-0ee42b525c70)
+
 
 **Example**
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/83b184ca-9b7e-4d34-b915-b7c7883f5c18)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/ae8f5170-48b0-49fa-9ff9-146d9d81608c)
+
 
 
 **Base Attributes default support load from DataTable**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/92c81387-478b-41d4-bfd9-627a8874c3ae)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/d8c9179f-7e13-4230-80db-40b9c41a35d1)
+
 
 **In the DataTable example, different attributes are assigned to each character level.**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/060751b8-2412-4c9c-9037-2a0bdbcb8fdd)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/39d2ef06-f190-4404-9a96-0f143e6e2331)
+
 
 **load attributes from DataTable**
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/83ff0e5c-cb9a-4868-b38f-f456044aedd4)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/1cf12c80-1bb9-496d-84de-a78977e446e3)
+
 
 
 **Modifying DataTable**
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/1a41a695-87b6-497f-b9fd-c00f1e90aef5)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/1679489a-a848-4252-b3bd-3f7c24825fcd)
+
 
 
 -------
@@ -83,14 +92,17 @@ IncHealth(50) // health = 140
 
 **Variable is a special type that can interact with Attributes.**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/794583cd-8753-4337-b1db-dfb889c496f7)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/f583799e-649c-42f0-b777-7137fd981b98)
+
 
 
 # Rules
 **Variable Rules are the rules that apply when Attributes change.**
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/051a81d1-5f25-4fbc-84a2-f91cf35317e4)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/68576162-08fb-410b-a3c2-9a29541a3b7f)
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/716d32ec-22e8-421f-af55-7490b303f042)
+
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/83185c23-2ef0-4b6b-a7e4-a8cbcdfd5962)
+
 
 
 
@@ -102,7 +114,8 @@ IncHealth(50) // health = 140
 
 **Example**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/ec37ce54-f94a-41f0-9736-2478a6e72bf6)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/5f36af60-4a1a-49b4-b652-6edd245c2e47)
+
 
 
 -------
@@ -113,28 +126,33 @@ IncHealth(50) // health = 140
 -------
 **Additionally, you might need other types of attributes. This component provides some basic variable types for you to use.**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/6caaef77-1203-466f-897a-611ef428432f)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/119c5e76-098e-4917-8874-a6ae253c6bed)
 
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/c476fefd-0412-430c-ba80-df8d3219cb93)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/b334934f-c9a9-4d4d-b389-f097be1e184d)
+
 
 **You might notice the absence of Boolean, Byte, Integer, String, and Text. You can use Float and Name instead.**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/1771784c-1f25-4381-9a26-29eeac436f2d)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/9cd7377e-2769-44fd-8320-c1ad7c5b8a38)
+
 
 **Example**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/f5cfd50a-7e3a-4b44-8e9b-077eaf55ecb8)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/c76e0d14-6f56-4921-8909-c7ca2436b295)
+
 
 
 # Save Attribute
 **Note: Attributes are not saved.**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/57607334-a596-4515-baed-746aa8938470)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/ec396a65-f230-44c7-b734-64a968415b7a)
+
 
 **If you want to control the save logic yourself, use the following functions.**
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/f3fe4ebd-e92e-4201-9f89-da1411bf0e08)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/ee6e6f5a-483e-4a7f-9d2f-105b3c836c50)
+
 
 
 
@@ -146,7 +164,8 @@ IncHealth(50) // health = 140
 
 -------
 
-![image](https://github.com/chaintree7/Event-driven-Game-Framework/assets/87846878/65f17e6d-d5b6-41fa-9a19-e94e0556dd15)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/bab58e77-00cc-4bd9-adf3-70d2cdfd1545)
+
 
 | Event | Description |
 | ----------- | ----------- |
