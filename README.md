@@ -1,6 +1,6 @@
+# Note: The icons (prefixed with T_Paragon) are taken from Paragon(Epic Games Copyright) and are only used for demonstration. You may not use icons for commercial purposes.
 
 # Attribute System 
-
 
 #### To ensure the extensibility of the component, the Attribute System itself does not contain any game logic. It is solely responsible for managing value modifications, queries, and network Replication. This design prevents any conflicts with other functionalities in your project, allowing you to safely use it in any project. The component has undergone extensive testing to support a wide range of requirements.
 #### The demo provides numerous examples, such as the usage of Combat Buff and Equipment.
