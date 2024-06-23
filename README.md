@@ -1,4 +1,8 @@
-# Note: The icons (prefixed with T_Paragon) are taken from Paragon(Epic Games Copyright) and are only used for demonstration. You may not use icons for commercial purposes.
+# Unreal Marketplace Version
+**Marketplace rules don't allow blueprints as free assets, so the MP version price is set to $5, and due to copyright the Github version does not include Paragon icons**
+**https://www.unrealengine.com/marketplace/en-US/profile/CT+Game**
+
+**Discord Support: https://discord.gg/FrBMHSJGkM**
 
 # Attribute System 
 
