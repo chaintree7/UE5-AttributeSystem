@@ -57,7 +57,7 @@ IncHealth(50) // health = 140
 
 
 **Example**
-![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/ae8f5170-48b0-49fa-9ff9-146d9d81608c)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/3f5547bd-6dbb-4200-84b6-74217836c6ae)
 
 
 
@@ -140,7 +140,7 @@ IncHealth(50) // health = 140
 
 **Example**
 
-![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/c76e0d14-6f56-4921-8909-c7ca2436b295)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/4d1dfd21-8f99-40a5-ae82-cc4aa0955df4)
 
 
 
