@@ -1,6 +1,6 @@
+# Note: The icons (prefixed with T_Paragon) are taken from Paragon(Epic Games Copyright) and are only used for demonstration. You may not use icons for commercial purposes.
 
 # Attribute System 
-
 
 #### To ensure the extensibility of the component, the Attribute System itself does not contain any game logic. It is solely responsible for managing value modifications, queries, and network Replication. This design prevents any conflicts with other functionalities in your project, allowing you to safely use it in any project. The component has undergone extensive testing to support a wide range of requirements.
 #### The demo provides numerous examples, such as the usage of Combat Buff and Equipment.
@@ -57,7 +57,7 @@ IncHealth(50) // health = 140
 
 
 **Example**
-![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/ae8f5170-48b0-49fa-9ff9-146d9d81608c)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/3f5547bd-6dbb-4200-84b6-74217836c6ae)
 
 
 
@@ -140,7 +140,7 @@ IncHealth(50) // health = 140
 
 **Example**
 
-![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/c76e0d14-6f56-4921-8909-c7ca2436b295)
+![image](https://github.com/chaintree7/EventDriven-AttributeSystem/assets/87846878/4d1dfd21-8f99-40a5-ae82-cc4aa0955df4)
 
 
 
