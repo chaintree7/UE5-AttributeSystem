@@ -5,6 +5,11 @@
 
 **Discord Support: https://discord.gg/FrBMHSJGkM**
 
+````diff
+- Red Note: Demo doesn't work, please add the default GameplayTag to project /Config/Tags/CT_AttributeSystem.ini 
+````
+
+**https://github.com/chaintree7/EventDriven-AttributeSystem/blob/main/Config/Tags/CT_AttributeSystem.ini** 
 
 # Demo Video
 
