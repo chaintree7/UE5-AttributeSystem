@@ -5,7 +5,7 @@
 
 **Discord Support: https://discord.gg/FrBMHSJGkM**
 
-## Demo doesn't work, please add the default GameplayTag to project /Config/Tags/CT_AttributeSystem.ini 
+## Note: Demo doesn't work,  this is due to the missing default GameplayTags, please download CT_AttributeSystem.ini and add to your project /Config/Tags/
 **https://github.com/chaintree7/EventDriven-AttributeSystem/blob/main/Config/Tags/CT_AttributeSystem.ini** 
 
 # Demo Video
