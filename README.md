@@ -1,5 +1,3 @@
-# Unreal Marketplace Version
-**Marketplace rules don't allow blueprints as free assets, so the MP version price is set to $5, and due to copyright the Github version does not include Paragon icons**
 
 **https://www.unrealengine.com/marketplace/en-US/profile/CT+Game**
 
